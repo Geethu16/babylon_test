@@ -14,6 +14,24 @@ const Sidebar = () => {
         draggable
         onDragStart={handleDragStart}
       />
+         <img
+        style={{
+          height: "10vh",
+          width: "5vw",
+        }}
+        src="./square.png"
+        draggable
+        onDragStart={handleDragStart}
+      />
+      <img
+        style={{
+          height: "10vh",
+          width: "5vw",
+        }}
+        src="./triangle.png"
+        draggable
+        onDragStart={handleDragStart}
+      />
     </div>
   );
 };
